@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<!-- support for ie8 and 9 w/ pref to latest browser edition accessible -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>School Day Widget</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+<script src="../js/nsoCtl.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../css/sdwidget.css">
+</head>
+
+<body>
+
+<div id="SDWidgetFrame" ng-app="nsoApp">
+<div id="SDWidget" ng-controller="nsoCtl">
+	<div id="SDWHeader">
+		<h3>{{schooldaymsg}}</h3>
+	</div>
+	<div id = "SDWBody">
+		<div id="SDWDay">{{todaysday}}</div>
+	</div>
+</div>
+
+</body>
+</html>

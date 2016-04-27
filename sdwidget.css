@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+*, *:before, *:after {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#SDWidgetFrame {
+	display:inline-block;
+	width:200px;
+}
+#SDWidget {
+	display:block;
+	color: #000;
+    font-family: Gill Sans Light, Verdana, Arial;
+	text-align:center;
+	vertical-align:top;
+	margin:0;
+	padding:0;
+}
+#SDWHeader {
+	display:block;
+	background: #fff; 
+}
+#SDWHeader h3{
+	color: #000;
+	font-size: large;
+	font-weight: bold;	
+}
+#SDWBody {
+	dipslay:block;
+	vertical-align: top;
+	text-align:center;
+	font-size: xx-large;
+	padding: 20px;
+	margin-left:20px;
+	margin-right:20px;
+	background:#103bbf;
+	border: solid medium #003399; 
+}
+
+#SDWDay {
+	display:inline-block;
+	font-weight: bold;	
+	margin:0px;
+	padding-left:10px;
+	padding-right:10px;
+	background:white;
+	border: solid thin #0033ff; 
+}

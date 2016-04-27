@@ -1,0 +1,22 @@
+{
+	"version": "1.6",
+	"Description": "Widget to display numeric school day (1-6)",
+	"school": {
+		"name": "Curtis Corner Middle School",
+		"system": "Town of South Kingstown",
+		"startdate": "03-31-2016",
+		"enddate":"06-20-2016",
+		"restartdate":"09-05-2016",
+		"startday" : "1", 
+		"nDaysRotation": "6"
+	},
+	"noSchoolDays": [
+		{"nsdate": "04-18-2016", "code": "V"},
+		{"nsdate": "04-19-2016", "code": "V"},
+		{"nsdate": "04-20-2016", "code": "V"},
+		{"nsdate": "04-21-2016", "code": "V"},
+		{"nsdate": "04-22-2016", "code": "V"},
+		{"nsdate": "05-30-2016", "code": "H"}	
+	]
+}
+
