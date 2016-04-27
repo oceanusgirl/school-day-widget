@@ -1,4 +1,3 @@
-
 School Day Widget
 
 This is a JSON driven configurable widget that displays the current school day. 
